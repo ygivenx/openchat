@@ -1,0 +1,21 @@
+# Xcode
+DerivedData/
+*.xcuserstate
+project.xcworkspace/xcuserdata/
+build/
+*.hmap
+*.ipa
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Swift
+.swiftpm/
+
+# App secrets
+*.p12
+*.mobileprovision
+MacApp/.build/
+MacApp/build/

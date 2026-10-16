@@ -1,0 +1,52 @@
+ // !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+		
+		BBB00000000000000000010 /* PBXBuildFile */ = {isa = PBXBuildFile; fileRef = BBB00000000000000000001 /* ChatHistory.swift */; };
+		BBB00000000000000000011 /* PBXBuildFile */ = {isa = PBXBuildFile; fileRef = BBB00000000000000000002 /* MarkdownView.swift */; };
+		BBB00000000000000000012 /* PBXBuildFile */ = {isa = PBXBuildFile; fileRef = BBB00000000000000000003 /* Logo.png */; };
+		BBB00000000000000000014 /* PBXBuildFile */ = {isa = PBXBuildFile; fileRef = BBB00000000000000000005 /* PrivacyInfo.xcprivacy */; };
+		BBB00000000000000000013 /* PBXBuildFile */ = {isa = PBXBuildFile; fileRef = BBB00000000000000000004 /* AppIcon.icns */; };
+		CCC00000000000000000010 /* PBXBuildFile */ = {isa = PBXBuildFile; fileRef = CCC00000000000000000001 /* CredentialStore.swift */; };
+		CCC00000000000000000011 /* PBXBuildFile */ = {isa = PBXBuildFile; fileRef = CCC00000000000000000002 /* ChatRequestController.swift */; };
+		CCC00000000000000000012 /* PBXBuildFile */ = {isa = PBXBuildFile; fileRef = CCC00000000000000000003 /* MediaProcessor.swift */;
+		CCC00000000000000000013 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; }; };
+		AAA00000000000000000001 /* PBXBuildFile */ = {isa = PBXBuildFile; fileRef = AAA00000000000000000002 /* App.swift */; };
+		AAA00000000000000000003 /* PBXBuildFile */ = {isa = PBXBuildFile; fileRef = AAA00000000000000000004 /* ContentView.swift */; };
+		AAA00000000000000000005 /* PBXBuildFile */ = {isa = PBXBuildFile; fileRef = AAA00000000000000000006 /* SettingsView.swift */; };
+		AAA00000000000000000007 /* PBXBuildFile */ = {isa = PBXBuildFile; fileRef = AAA00000000000000000008 /* OpenAIClient.swift */; };
+		AAA00000000000000000009 /* PBXFileReference */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = OpenChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA00000000000000000002 /* PBXFileReference */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		AAA00000000000000000004 /* PBXFileReference */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AAA00000000000000000006 /* PBXFileReference */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AAA00000000000000000008 /* PBXFileReference */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIClient.swift; sourceTree = "<group>"; };
+		
+		BBB00000000000000000001 /* PBXFileReference */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatHistory.swift; sourceTree = "<group>"; };
+		BBB00000000000000000002 /* PBXFileReference */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownView.swift; sourceTree = "<group>"; };
+		BBB00000000000000000003 /* PBXFileReference */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resources/Logo.png; sourceTree = "<group>"; };
+		BBB00000000000000000004 /* PBXFileReference */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Resources/AppIcon.icns; sourceTree = "<group>"; };
+		CCC00000000000000000001 /* PBXFileReference */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialStore.swift; sourceTree = "<group>"; };
+		CCC00000000000000000002 /* PBXFileReference */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRequestController.swift; sourceTree = "<group>"; };
+		CCC00000000000000000003 /* PBXFileReference */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaProcessor.swift; sourceTree = "<group>"; };
+		AAA0000000000000000000A /* PBXFileReference */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA0000000000000000000B /* PBXFileReference */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenChat.entitlements; sourceTree = "<group>"; };
+		AAA0000000000000000000C /* PBXGroup */ = {isa = PBXGroup; children = (BBB00000000000000000001, BBB00000000000000000002, CCC00000000000000000001, CCC00000000000000000002, CCC00000000000000000003, AAA00000000000000000002, AAA00000000000000000004, AAA00000000000000000006, AAA00000000000000000008, BBB00000000000000000003, BBB00000000000000000004, AAA0000000000000000000A, AAA0000000000000000000B); path = OpenChat; sourceTree = "<group>"; };
+		AAA0000000000000000000D /* PBXGroup */ = {isa = PBXGroup; children = (AAA0000000000000000000C); sourceTree = "<group>"; };
+		AAA0000000000000000000E /* PBXGroup */ = {isa = PBXGroup; children = (AAA00000000000000000009); name = Products; sourceTree = "<group>"; };
+		AAA0000000000000000000F /* PBXNativeTarget */ = {isa = PBXNativeTarget; buildConfigurationList = AAA00000000000000000010 /* Build configuration list for PBXNativeTarget "OpenChat" */; buildPhases = (AAA00000000000000000011, AAA00000000000000000012, AAA00000000000000000013); buildRules = (); dependencies = (); name = OpenChat; productName = OpenChat; productReference = AAA00000000000000000009; productType = "com.apple.product-type.application"; };
+		AAA00000000000000000011 /* PBXSourcesBuildPhase */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (BBB00000000000000000010, BBB00000000000000000011, CCC00000000000000000010, CCC00000000000000000011, CCC00000000000000000012, CCC00000000000000000014, AAA00000000000000000001, AAA00000000000000000003, AAA00000000000000000005, AAA00000000000000000007); runOnlyForDeploymentPostprocessing = 0; };
+		AAA00000000000000000012 /* PBXFrameworksBuildPhase */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		AAA00000000000000000013 /* PBXResourcesBuildPhase */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (BBB00000000000000000012, BBB00000000000000000013, BBB00000000000000000014); runOnlyForDeploymentPostprocessing = 0; };
+		AAA00000000000000000014 /* PBXProject */ = {isa = PBXProject; attributes = { BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 2600; LastUpgradeCheck = 2600; TargetAttributes = { AAA0000000000000000000F = { CreatedOnToolsVersion = 15.0; }; }; }; buildConfigurationList = AAA00000000000000000015 /* Build configuration list for PBXProject */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = AAA0000000000000000000D; productRefGroup = AAA0000000000000000000E; projectDirPath = ""; projectRoot = ""; targets = (AAA0000000000000000000F); };
+		AAA00000000000000000016 /* XCBuildConfiguration */ = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_ENABLE_MODULES = YES; CODE_SIGN_ENTITLEMENTS = OpenChat/OpenChat.entitlements; CODE_SIGN_STYLE = Automatic; CODE_SIGN_IDENTITY = "-"; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; ENABLE_APP_SANDBOX = YES; ENABLE_HARDENED_RUNTIME = YES; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = OpenChat/Info.plist; INFOPLIST_KEY_CFBundleIconFile = AppIcon;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity"; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks"); MACOSX_DEPLOYMENT_TARGET = 13.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.h200.openchat; PRODUCT_NAME = OpenChat; SWIFT_EMBEDDED_LIBRARIES = YES; SWIFT_VERSION = 5.0; }; name = Debug; };
+		AAA00000000000000000017 /* XCBuildConfiguration */ = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_ENABLE_MODULES = YES; CODE_SIGN_ENTITLEMENTS = OpenChat/OpenChat.entitlements; CODE_SIGN_STYLE = Automatic; CODE_SIGN_IDENTITY = "-"; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; ENABLE_APP_SANDBOX = YES; ENABLE_HARDENED_RUNTIME = YES; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = OpenChat/Info.plist; INFOPLIST_KEY_CFBundleIconFile = AppIcon;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity"; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/../Frameworks"); MACOSX_DEPLOYMENT_TARGET = 13.0; MARKETING_VERSION = 1.0; PRODUCT_BUNDLE_IDENTIFIER = com.h200.openchat; PRODUCT_NAME = OpenChat; SWIFT_EMBEDDED_LIBRARIES = YES; SWIFT_VERSION = 5.0; }; name = Release; };
+		AAA00000000000000000010 /* XCConfigurationList */ = {isa = XCConfigurationList; buildConfigurations = (AAA00000000000000000016, AAA00000000000000000017); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		AAA00000000000000000015 /* XCConfigurationList */ = {isa = XCConfigurationList; buildConfigurations = (AAA00000000000000000016, AAA00000000000000000017); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+	};
+	rootObject = AAA00000000000000000014 /* PBXProject */;
+}

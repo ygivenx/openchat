@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <title>OpenChat app icon</title>
+  <rect width="1024" height="1024" rx="230" fill="#111"/>
+  <g transform="translate(102 96) scale(1.6)" fill="none" stroke="#fff" stroke-width="28" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M300 104H168A72 72 0 0 0 96 176V272A72 72 0 0 0 168 344L122 422L256 344H344A72 72 0 0 0 416 272V220"/>
+    <path d="M168 196H304M168 252H248"/>
+  </g>
+</svg>

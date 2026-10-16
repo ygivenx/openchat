@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none" stroke="#111" stroke-width="28" stroke-linecap="round" stroke-linejoin="round">
+  <title>OpenChat</title>
+  <!-- speech bubble, one open stroke: gap sits in the top-right corner -->
+  <path d="M300 104H168A72 72 0 0 0 96 176V272A72 72 0 0 0 168 344L122 422L256 344H344A72 72 0 0 0 416 272V220"/>
+  <!-- text lines -->
+  <path d="M168 196H304M168 252H248"/>
+</svg>
