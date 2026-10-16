@@ -28,6 +28,10 @@ xcodebuild build -project MacApp/OpenChat.xcodeproj -scheme OpenChat -configurat
 open ~/Library/Developer/Xcode/DerivedData/OpenChat-*/Build/Products/Debug/OpenChat.app
 ```
 
+## iOS
+
+Native iPhone/iPad app in `MacApp/OpenChatiOS` + `OpenChatiOS.xcodeproj` — shares `OpenAIClient`/`ChatHistory`/`Tools` with macOS, uses `PHPicker`/`UIDocumentPicker` + `UIKit` media handling. Open `MacApp/OpenChatiOS.xcodeproj` and run on Simulator (iOS 16+).
+
 ## Release (signed + notarized)
 
 ```bash

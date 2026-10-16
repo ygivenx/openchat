@@ -13,7 +13,7 @@
 		CCC00000000000000000010 /* PBXBuildFile */ = {isa = PBXBuildFile; fileRef = CCC00000000000000000001 /* CredentialStore.swift */; };
 		CCC00000000000000000011 /* PBXBuildFile */ = {isa = PBXBuildFile; fileRef = CCC00000000000000000002 /* ChatRequestController.swift */; };
 		CCC00000000000000000012 /* PBXBuildFile */ = {isa = PBXBuildFile; fileRef = CCC00000000000000000003 /* MediaProcessor.swift */;
-		CCC00000000000000000013 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; }; };
+		CCC00000000000000000013 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		AAA00000000000000000001 /* PBXBuildFile */ = {isa = PBXBuildFile; fileRef = AAA00000000000000000002 /* App.swift */; };
 		AAA00000000000000000003 /* PBXBuildFile */ = {isa = PBXBuildFile; fileRef = AAA00000000000000000004 /* ContentView.swift */; };
 		AAA00000000000000000005 /* PBXBuildFile */ = {isa = PBXBuildFile; fileRef = AAA00000000000000000006 /* SettingsView.swift */; };
